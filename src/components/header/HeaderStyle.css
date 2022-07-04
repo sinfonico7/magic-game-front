@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Beleren;
+    src: url('../fonts/Beleren-Bold.ttf');
+    src: url('../fonts/BelerenSmallCaps.ttf');
+    src: url('../fonts/JaceBeleren-Bold.ttf');
+    src: url('../fonts/MPlantin-Bold.ttf');
+    src: url('../fonts/MPlantin-Italic.ttf');
+    src: url('../fonts/MPlantin.ttf');
+}
+nav ul{
+    margin-left: 10px;
+}
+
+nav ul li {
+    padding: 20px;
+    background-color: rgba(51, 50, 50, 0.76);
+    display: inline-block;    
+}
+
+li a {
+    font-size: larger;   
+    font-family: Beleren, Tahoma, serif;
+    color: white;
+    text-decoration: none;
+}
