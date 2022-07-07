@@ -21,10 +21,7 @@ const variables = {
 const Home = () => (
     <div style={style.home}>
         <Header/>
-        <section>
         <Banner  variables={variables}/>
-        </section>
-        
     </div>
 );
 
