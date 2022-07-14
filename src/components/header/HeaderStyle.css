@@ -8,12 +8,11 @@
     src: url('../fonts/MPlantin.ttf');
 }
 nav ul{
-    margin-left: 10px;
+    background-color:  rgba(0, 0, 0, 0.76);
 }
 
 nav ul li {
     padding: 20px;
-    background-color: rgba(51, 50, 50, 0.76);
     display: inline-block;    
 }
 

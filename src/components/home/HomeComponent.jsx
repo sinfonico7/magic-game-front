@@ -1,5 +1,5 @@
 import Banner from '../banner/BannerComponent';
-import Header from '../header/HeaderComponent';
+
 import pic from '../images/home/magic_news.png';
 import background from '../images/home/home__background.jpg';
 
@@ -19,8 +19,7 @@ const variables = {
 }
 
 const Home = () => (
-    <div style={style.home}>
-        <Header/>
+    <div style={style.home}>  
         <Banner  variables={variables}/>
     </div>
 );
