@@ -9,3 +9,5 @@ class CardEntity{
         return this.img;
     }
 }
+
+export default CardEntity;

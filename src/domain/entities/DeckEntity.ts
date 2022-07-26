@@ -6,6 +6,9 @@ class DeckEntity {
     }
 
     getImage(){
+        console.log(this.image);
         return this.image;
     }
 }
+
+export default DeckEntity;

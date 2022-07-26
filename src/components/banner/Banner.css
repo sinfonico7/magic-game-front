@@ -1,0 +1,11 @@
+img {
+    height: 200px;
+    width: 600px;
+    transition: all 1s;
+}
+
+img:active {
+    height: 620px;
+    width: 930px;
+    transform: skewY(25deg);
+}

@@ -1,3 +1,5 @@
+import CardEntity from "../entities/CardEntity";
+
 interface CardRepository{
     getAllCardsByColor(colors:Array<string>) : CardEntity[];
     getAllCardsByCosts(costs:Array<number>) : CardEntity[];
@@ -6,3 +8,5 @@ interface CardRepository{
     getAllCardsByRarity(rarity:Array<string>) : CardEntity[];
     getAllCardsByType(type:string) : CardEntity[];
 }
+
+export default CardRepository;
