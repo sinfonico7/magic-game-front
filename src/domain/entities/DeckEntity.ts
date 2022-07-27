@@ -1,13 +1,22 @@
 class DeckEntity {
     image:string;
+    name:string;
 
-    constructor(imageSrc:string){
+    constructor(imageSrc:string,name:string){
         this.image = imageSrc;
+        this.name = name;
     }
 
     getImage(){
-        console.log(this.image);
         return this.image;
+    }
+
+    getName(){
+        return this.name;
+    }
+
+    setName(newName:string){
+        this.name = newName;
     }
 }
 

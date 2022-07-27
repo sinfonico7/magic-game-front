@@ -1,6 +1,8 @@
-const DeckCoponent = () => (
+const DeckCoponent = ({properties}) => (
     <>
-        <h1>Deck Component</h1>
+       <p>{properties.getName()}</p>
+       <img referrerPolicy="no-referrer" src={properties.getImage()}/>
+      
     </>
 );
 
